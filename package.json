@@ -1,0 +1,28 @@
+{
+  "name": "fe-rampup-backend",
+  "version": "1.0.0",
+  "description": "Backend for the frontend rampup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunsetRiders/fe-rampup-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "frontend",
+    "rampup",
+    "express"
+  ],
+  "author": "Rodrigo Cavassan Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunsetRiders/fe-rampup-backend/issues"
+  },
+  "homepage": "https://github.com/SunsetRiders/fe-rampup-backend#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
