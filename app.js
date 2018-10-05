@@ -9,7 +9,7 @@ const jsonParser = bodyParser.json();
 // define profile mock-up data
 const PROFILE = {
   "address": "24058, Belgium, Brussels, Liutte 27, BE",
-  "dateOfBirth": new Date(Date.parse('01/04/1994', 'dd/MM/YYYY')).getTime(),
+  "dateOfBirth": new Date(Date.parse('01/04/1994')).getTime(),
   "email": "robertsmith@company.com",
   "latitude": -22.9246802,
   "longitude": -47.0825035,
