@@ -7,14 +7,16 @@ const port = 3000;
 // define profile mock-up data
 const PROFILE = {
   "address": "24058, Belgium, Brussels, Liutte 27, BE",
-  "dateOfBirth": new Date(Date.parse('01/04/1994')).getTime(),
+  "dateOfBirth": new Date(Date.parse('04/01/1994')).getTime(),
   "email": "robertsmith@company.com",
+  "freelance": new Date(Date.parse('03/25/2018')).getTime(),
   "latitude": -22.9246802,
   "longitude": -47.0825035,
   "name": "Robert Smith",
   "phone": "+1 256 254 84 56",
   "position": "Developer and Startup entrepeneur",
   "skype": "robsmithcompany",
+  "vacation": new Date(Date.parse('04/15/2018')).getTime(),
   "viber": "+1 256 254 84 56"
 };
 
