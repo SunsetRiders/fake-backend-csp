@@ -1,27 +1,26 @@
 {
-  "name": "fe-rampup-backend",
+  "name": "backend-csp",
   "version": "1.0.0",
-  "description": "Backend for the frontend rampup",
+  "description": "Backend for the CSP",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SunsetRiders/fe-rampup-backend.git"
+    "url": "git+https://github.com/SunsetRiders/fake-backend-csp.git"
   },
   "keywords": [
     "backend",
     "frontend",
-    "rampup",
-    "express"
+    "csp"
   ],
-  "author": "Rodrigo Cavassan Martins",
-  "license": "ISC",
+  "author": "Matheus Hahn",
+  "license": "CSP",
   "bugs": {
-    "url": "https://github.com/SunsetRiders/fe-rampup-backend/issues"
+    "url": "https://github.com/SunsetRiders/fake-backend-csp/issues"
   },
-  "homepage": "https://github.com/SunsetRiders/fe-rampup-backend#readme",
+  "homepage": "https://github.com/SunsetRiders/fake-backend-csp#readme",
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3"
