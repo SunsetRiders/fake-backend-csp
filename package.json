@@ -13,7 +13,8 @@
   "keywords": [
     "backend",
     "frontend",
-    "csp"
+    "csp",
+    "express"
   ],
   "author": "Matheus Hahn",
   "license": "CSP",

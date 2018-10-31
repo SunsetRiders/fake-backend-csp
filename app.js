@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // define profile mock-up data
-const PROFILE = {
+const USER_DATA = {
   "address": "24058, Belgium, Brussels, Liutte 27, BE",
   "dateOfBirth": new Date(Date.parse('04/01/1994')).getTime(),
   "email": "robertsmith@company.com",
@@ -26,15 +26,15 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-// profile data
-app.get('/profile', (req, res) => {
-  res.send(PROFILE);
+// get
+app.get('/csp', (req, res) => {
+  res.send('ablubla');
 })
 
-// contact post
-app.post('/contact', (req, res) => {
-  console.log(req.body);
-  res.status(200).send(req.body);
+// userdata post
+app.post('/userdata', (req, res) => {
+  console.log(USER_DATA);
+  res.status(200).send(USER_DATA);
 })
 
-app.listen(port, () => console.log(`FrontEnd Rampup Backend listening on port ${port}!`))
+app.listen(port, () => console.log(`Fake backend CSP ${port}!`))
